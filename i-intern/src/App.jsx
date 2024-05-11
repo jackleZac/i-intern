@@ -3,7 +3,7 @@ import './index.css';
 import { Header } from './header';
 import { Dashboard } from './Dashboard';
 import { Applications} from './Applications';
-import { About } from './About';
+import { Footer } from './footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
@@ -12,9 +12,8 @@ function App() {
       <Router>
         <Header />  
         <Routes>
-            <Route exact path='/' element={<Home />} />
-            <Route path='/menu' element={<Menu />} />
-            <Route path='/about' element={<About />} />
+            <Route exact path='/' element={<Dashboard />} />
+            <Route path='/applications' element={<Applications />} />
         </Routes>
         <Footer />
       </Router>

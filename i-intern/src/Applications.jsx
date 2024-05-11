@@ -1,9 +1,9 @@
 import React from 'react'
 
-function applications() {
+function Applications() {
   return (
-    <div>applications</div>
+    <div></div>
   )
 }
 
-export default applications
+export default Applications;
